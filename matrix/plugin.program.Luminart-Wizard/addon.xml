@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.Luminart-Wizard" name="[COLOR orange]Luminart-Studio[/COLOR] [COLOR lavender]Wizard[/COLOR]" version="1.0." provider-name="Luminart">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.requests" optional="true" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Luminart-Studio Wizard é um instalador Builds e manutenções para Kodi.  by TioJarvis </summary>
+		<description lang="en_GB">Luminart-Studio Wizard é um instalador Builds e manutenções para Kodi.  by TioJarvis </description>
+		<language>en</language>
+		<platform>all</platform>
+		<forum></forum>
+		<website></website> 
+		<email></email>
+		<source></source>
+
+		<assets>
+				<icon>resources/icon.png</icon>
+				<fanart>resources/fanart.jpg</fanart>
+				<banner></banner>
+				<clearlogo></clearlogo>
+				<screenshot></screenshot>
+		</assets>
+	</extension>
+</addon>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.luminartstudio.krypton"
+       name="[COLOR orange][B]LUMINART KRP[/B][/COLOR]"
+       version="0.0.5"
+       provider-name="[COLOR white][B]JOHN DOE[/B][/COLOR]">  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.six" />
+    <import addon="script.module.kodi-six" />    
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.httplib2"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>SUA CONTRIBUIÇÃO INCENTIVA NOSSO TRABALHO</summary>
+    <description lang="en">ACESSO EXCLUSIVO DE CONTRIBUINTE  
+AGRADECEMOS SUA CONTRIBUIÇÃO.
+NOSSOS CONTATOS : 
+luminartstudio4@gmail.com  OU  WhatsApp (48) 99194-1409  </description>
+    <disclaimer lang="en">O LUMINART STUDIO É APENAS UM INDEXADOR DE LINKS COLETADOS NA WEB E ORGANIZADOS PARA USO RECREATIVO,SEM FINS COMERCIAIS 
+NÃO ARMAZENAMOS ARQUIVOS, OU SOMOS RESPONSÁVEIS PELOS LINKS UTILIZADOS.</disclaimer>
+	<news>
+VERSÃO - 001-15-05-22</news>
+    <platform>all</platform>
+<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+       <screenshot>resources/screenshots/aviso1.jpg</screenshot>
+       <screenshot>resources/screenshots/aviso2.jpg</screenshot>
+       <screenshot>resources/screenshots/aviso3.jpg</screenshot>
+    </assets>
+  </extension>
+</addon>
