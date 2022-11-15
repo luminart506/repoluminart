@@ -61,20 +61,19 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.luminartstudio.matrix" version="0.0.4" name="[COLOR orange][B]LUMINART MTX[/B][/COLOR]" provider-name="[COLOR white][B]JOHN DOE[/B][/COLOR]">
+<addon id="plugin.video.luminartstudio.matrix" version="0.0.8" name="[COLOR orange][B]LUMINART MTX[/B][/COLOR]" provider-name="[COLOR white][B]JOHN DOE[/B][/COLOR]">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
-        <import addon="script.module.six" />
-        <import addon="script.module.kodi-six" />         
         <import addon="script.module.requests"/>
         <import addon="script.module.simplejson"/>
+	    <import addon="script.module.kodi-six" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">SUA CONTRIBUIÇÃO INCENTIVA NOSSO TRABALHO</summary>
-        <description lang="en">ACESSO EXCLUSIVO DE CONTRIBUINTE, AGRADECEMOS SUA CONTRIBUIÇÃO. NOSSOS CONTATOS: luminartstudio4@gmail.com  OU  WhatsApp (48) 99194-1409</description>
+        <description lang="en">ACESSO - ENTRADAS VIP E FREE , AGRADECEMOS SUA CONTRIBUIÇÃO. NOSSO CONTATO: WhatsApp (48) 99194-1409</description>
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
         <disclaimer lang="en">O LUMINART STUDIO É APENAS UM INDEXADOR DE LINKS COLETADOS NA WEB E ORGANIZADOS PARA USO RECREATIVO,SEM FINS COMERCIAIS NÃO ARMAZENAMOS ARQUIVOS, OU SOMOS RESPONSÁVEIS PELOS LINKS UTILIZADOS.</disclaimer>
