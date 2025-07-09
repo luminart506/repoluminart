@@ -1,0 +1,26 @@
+<settings>
+<category label="ACESSO PREMIUM">
+	<setting label="[COLOR lightblue]Configurações de Acesso[/COLOR] [COLOR gold](Premium):[/COLOR]" type="lsep"/>
+	<setting label="Usuário" id="username" type="text" default=""/>
+	<setting label="Senha" id="password" type="text" default="" enable="!eq(-1,false)" option="hidden"/>
+</category>
+<category label="Controle dos Pais">
+		<setting label="[COLOR lightblue]Controle dos Pais:[/COLOR]" type="lsep"/>
+		<setting label="Exibir Menu Adultos (Servidor 2)" id="adult" type="bool" default="false" />
+		<setting label="Tipo de Teclado (OK para trocar)" id="keyboard" type="enum" values="Númerico|Alfanúmerico" default="0" />
+		<setting label="Entre aqui para alterar senha, padrão: [COLOR yellow][B]0069[/B][/COLOR]" type="action" action="RunScript(plugin.video.OnePlay.Matrix, SetPassword)"/>
+</category>
+<category label="Complementos">
+	<setting label="[COLOR lightblue]Configurações de Complemento:[/COLOR]" type="lsep"/>
+	<setting label="Verificar Complementos" id="check_addon" type="bool" default="true" />
+	<setting label="Baixar e Instalar Elementum" id="elementum" type="bool" default="true" />
+	<setting label="Baixar e Instalar Youtube" id="youtube" type="bool" default="false" />
+</category>
+<category label="Outros">
+	<setting label="[COLOR lightblue]Configurações Gerais:[/COLOR]" type="lsep"/>
+	<setting label="Exibir Favoritos" id="favoritos" type="bool" default="false" />
+    <setting label="Entre aqui para limpar os favoritos" type="action" action="RunScript(plugin.video.basematrix), limparFavoritos)"/>	
+	<setting label="Executar Youtube" id="ytbmode" type="enum" values="Interno 1|Interno 2|Externo" default="1" />	
+    <setting label="Use Miniaturas como Fanart" id="use_thumb" type="bool" default="false" />
+</category>
+</settings>
